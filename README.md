@@ -1,6 +1,6 @@
-# Inventory Management Backend API
+# GET POST DATA Backend API from external API
 
-Sistem backend RESTful API untuk aplikasi comments menggunakan Golang, Gin framework, dan MySQL.
+Sistem backend RESTful API untuk aplikasi comments menggunakan Golang, Gin framework
 
 - Get dan post comments
 - Fetch data dari API eksternal (https://dummyjson.com)
@@ -12,22 +12,17 @@ Sistem backend RESTful API untuk aplikasi comments menggunakan Golang, Gin frame
 ## 📦 Requirements
 
 - Go 1.18+
-- MySQL server (XAMPP / MAMP / Docker / lainnya)
 - [Air (Live Reload)]
 ---
 
 ##  Setup Project
 
 # 1. Clone repo ini:
-
 git clone https://github.com/Brianrahmarela/assignment23-inventory-api.git
 
 ### 2. jalankan dengan:
-
 air
 
-
 ##  Route API
-
 Get: /external-comments
 Post: /external-comments/add
