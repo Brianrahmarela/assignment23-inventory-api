@@ -2,8 +2,7 @@
 
 Sistem backend RESTful API untuk aplikasi comments menggunakan Golang, Gin framework, dan MySQL.
 
-
-- CRUD produk, inventaris, dan pesanan
+- Get dan post comments
 - Fetch data dari API eksternal (https://dummyjson.com)
 - Live reload development menggunakan air
 - Struktur project yang modular
@@ -26,3 +25,9 @@ git clone https://github.com/Brianrahmarela/assignment23-inventory-api.git
 ### 2. jalankan dengan:
 
 air
+
+
+##  Route API
+
+Get: /external-comments
+Post: /external-comments/add
